@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Node.js Ubuntu EC2 pe chal raha hai 🚀');
+  res.send('Node.js Ubuntu EC2 pe chal raha hai  samajh me aa gya adarsh babu🚀');
 });
 
 app.listen(3000, () => {
