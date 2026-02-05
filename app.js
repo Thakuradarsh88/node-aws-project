@@ -1,0 +1,10 @@
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Node.js Ubuntu EC2 pe chal raha hai 🚀');
+});
+
+app.listen(3000, () => {
+  console.log('Server running on port 3000');
+});
